@@ -23,3 +23,16 @@
     color:rgb(88, 88, 89);
     margin-top: 100px;
 }
+
+.nombre{
+    text-align: center;
+    color:black
+}
+
+.foto img {
+    display: block;          /* Imprescindible para que margin: auto funcione */
+    margin: 30px auto;       /* 30px de separación arriba/abajo y centrado a los lados */
+    width: 200px;            /* Cambia este valor al tamaño deseado (ej. 200px, 300px) */
+    height: auto;            /* Mantiene la proporción sin deformar */
+    border-radius: 40px;     /* Opcional: bordes redondeados suaves */
+}
